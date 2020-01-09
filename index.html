@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Kalkulator</title>
+  <script src="calculator.js" type="text/javascript"></script>
+</head>
+
+<body>
+  <h1>Kalkulator Sederhana</h1>
+  <table border="1" cellpadding="5" cellspacing="5" width="600">
+    <tr align="center">
+      <td>Angka Pertama</td>
+      <td>Angka Kedua</td>
+      <td>Angka Ketiga</td>
+      <td>Hasil</td>
+    </tr>
+    <tr align="center">
+      <td>
+        <input name="number1" type="text" size=10 id='num1' />
+      </td>
+      <td>
+        <input name="number2" type="text" size=10 id='num2' />
+      </td>
+      <td>
+        <input name="number3" type="text" size=10 id='num3' />
+      </td>
+      <td>
+        <input type="text" id='hasil' readonly>
+      </td>
+    </tr>
+    <tr>
+      <td colspan="6" align="center">
+        <button onclick="showhasil('1')">+</button>
+        <button onclick="showhasil('2')">-</button>
+        <button onclick="showhasil('3')">x</button>
+        <button onclick="showhasil('4')">/</button>
+      </td>
+    </tr>
+  </table>
+</body>
+
+</html>
